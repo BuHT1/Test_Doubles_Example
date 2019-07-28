@@ -13,4 +13,9 @@ public class UserRepositoryImpl implements UserRepository {
     public User findOneUser(Long id) {
         return null; //Find user in DB, return user
     }
+
+    @Override
+    public void save(User user) {
+        //save user in DB
+    }
 }
